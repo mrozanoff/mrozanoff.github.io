@@ -56,10 +56,14 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
-								<a target="_blank" rel="noopener noreferrer" href="https://github.com/mrozanoff/PythonJobScraper">Python Job Scraper:</a>
-								<p>Using the bs4 library in Python to scrape data from indeed and put it into a csv file.</p>
-								<a target="_blank" rel="noopener noreferrer" href="https://github.com/mrozanoff/pythonStockTrader">Python Job Scraper:</a>
-								<p>A fun little code to trade stock :)</p>
+								<a target="_blank" rel="noopener noreferrer" href="https://github.com/mrozanoff/PythonJobScraper">Job Scraper:</a>
+								<p>Using the bs4 library in Python to scrape data from indeed and put it into a csv file in order to have better control over job selection.</p>
+								<a target="_blank" rel="noopener noreferrer" href="https://github.com/mrozanoff/pythonStockTrader">Python Stock Game:</a>
+								<p>A fun little code to trade a randomized stock :)</p>
+								<a target="_blank" rel="noopener noreferrer" href="https://github.com/mrozanoff/cppPhonetics">Phonetics:</a>
+								<p>A C++ code to sort through a phonetics file and find similar cases.</p>
+								<a target="_blank" rel="noopener noreferrer" href="https://github.com/mrozanoff/PythonSQL">PythonSQL:</a>
+								<p>Learning how to work with SQL within Python.</p>
 							</article>
 
 						<!-- About -->
@@ -77,64 +81,14 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<span class="image main"><img src="images/opencomp.jpg" alt="" /></span>
-								<form method="post" action="#">
-									<style>.tooltip {
-										position: relative;
-										display: inline-block;
-									  }
-									  
-									  .tooltip .tooltiptext {
-										visibility: hidden;
-										width: 140px;
-										background-color: #555;
-										color: #fff;
-										text-align: center;
-										border-radius: 6px;
-										padding: 5px;
-										position: absolute;
-										z-index: 1;
-										bottom: 150%;
-										left: 50%;
-										margin-left: -75px;
-										opacity: 0;
-										transition: opacity 0.3s;
-									  }
-									  
-									  .tooltip .tooltiptext::after {
-										content: "";
-										position: absolute;
-										top: 100%;
-										left: 50%;
-										margin-left: -5px;
-										border-width: 5px;
-										border-style: solid;
-										border-color: #555 transparent transparent transparent;
-									  }
-									  
-									  .tooltip:hover .tooltiptext {
-										visibility: visible;
-										opacity: 1;
-									  }</style>
+								
 
-									<center><p>Please find me at:<br>    
-										<button onclick="myFunction()"><a>emrozanoff@gmail.com</a></button></center></p>
 
-										<script>
-											function myFunction() {
-												/* Get the text field */
-												var copyText = document.getElementById("myInput");
-											  
-												/* Select the text field */
-												copyText.select();
-												copyText.setSelectionRange(0, 99999); /* For mobile devices */
-											  
-												 /* Copy the text inside the text field */
-												navigator.clipboard.writeText(copyText.value);
-											  
-												/* Alert the copied text */
-												alert("Copied the text: " + copyText.value);
-											  } </script>
+
+									<center><p>Please find me at:<br>  <br>  
+										<button onclick="myFunction()" onmouseout="outFunc()"><a>emrozanoff@gmail.com</a></button></center></p>
+
+
 
 							</article>
 
@@ -398,6 +352,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/copyClick.js"></script>
+
+				
 
 	</body>
 </html>
